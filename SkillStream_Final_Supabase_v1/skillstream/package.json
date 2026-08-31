@@ -3,10 +3,13 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "devDependencies": {
     "vite": "^7.1.3"
-  }
+  },
+  "description": "SkillStream interactive learning platform demo"
 }
